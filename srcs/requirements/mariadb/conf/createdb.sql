@@ -1,0 +1,6 @@
+CREATE DATABASE Base;
+CREATE USER 'stuart' IDENTIFIED BY 'stuart';
+GRANT ALL PRIVILEGES ON Base.* TO 'stuart';
+FLUSH PRIVILEGES;
+
+ALTER USER 'root'@'localhost' IDENTIFIED BY '1qaz2wsx';
